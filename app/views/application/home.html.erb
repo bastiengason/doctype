@@ -1,14 +1,12 @@
-<div class="banner">
+<%= render 'shared/navbar' %>
+
+<div id="banner">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 text-center">
-        <%= image_tag("logo.png", class: "logo") %>
-      </div>
-    </div>
-    <div class="row">
       <div class="col-lg-12 tagline text-center">
-        Designer who wants to <strong>learn</strong> to code
-        <br> in Bangkok
+        Coding workshops for beginners who wants to
+        <br>
+        <strong>learn</strong> to code in Bangkok
       </div>
     </div>
     <div class="row">
@@ -21,10 +19,6 @@
 
 
 <style>
-  body {
-    background-color: rgba(34, 34, 34, 1.00);
-  }
-
   .logo {
     height: 25px;
   }
