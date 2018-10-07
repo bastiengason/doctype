@@ -4,10 +4,14 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  background: image-url('bg-cross.svg') no-repeat center;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
 
   h1 {
     font-size: 32px;
     color: $brand-red;
+    font-weight: 700;
   }
 
   h3 {
