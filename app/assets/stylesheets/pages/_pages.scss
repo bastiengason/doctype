@@ -1,0 +1,17 @@
+.under-construction {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  h1 {
+    font-size: 32px;
+    color: $brand-red;
+  }
+
+  h3 {
+    font-size: 22px;
+    color: white;
+  }
+}

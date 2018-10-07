@@ -28,6 +28,7 @@
 @import "pages/challenges";
 @import "pages/contact";
 @import "pages/events";
+@import "pages/pages";
 @import "pages/ressources";
 @import "pages/thankyou";
 
@@ -35,4 +36,5 @@
 body {
   margin: 0;
   background-color: rgba(34, 34, 34, 1.00);
+  font-family: $base-font;
 }
