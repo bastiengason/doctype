@@ -1,0 +1,25 @@
+.card-challenges {
+  position: relative;
+  height: 300px;
+  // background-color: white;
+  border-radius: 5px;
+
+  .challenges-title {
+    position: absolute;
+    color: $brand-red;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .challenges-snippet {
+    position: absolute;
+    color: white;
+    top: 40px;
+    font-size: 16px;
+  }
+
+  a {
+    position: absolute;
+    bottom: 10px;
+  }
+}

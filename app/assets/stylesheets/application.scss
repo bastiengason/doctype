@@ -20,6 +20,7 @@
 // @import "sections/how";
 // @import "sections/contact";
 // @import "sections/pricing";
+@import "sections/section";
 // @import "sections/newsletter";
 
 // Pages
@@ -37,4 +38,8 @@ body {
   margin: 0;
   background-color: rgba(34, 34, 34, 1.00);
   font-family: $base-font;
+}
+
+.logo {
+  height: 25px;
 }

@@ -1,0 +1,14 @@
+.section-title {
+  color: white !important;
+  font-size: 24px;
+}
+
+.section-link {
+  color: white !important;
+  font-size: 18px;
+
+  &:hover {
+    color: $brand-red !important;
+    text-decoration: none;
+  }
+}

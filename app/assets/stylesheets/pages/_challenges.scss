@@ -1,0 +1,8 @@
+#challenges {
+  min-height: 80vh;
+  background: image-url('bg-cross.svg') no-repeat center;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
