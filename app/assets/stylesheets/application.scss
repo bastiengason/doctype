@@ -1,0 +1,38 @@
+// Bootstrap
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+// Config
+@import "config/utilities";
+@import "config/variables";
+
+// Components
+// @import "components/buttons";
+// @import "components/navbar";
+// @import "components/cards";
+// @import "components/footer";
+// @import "components/forms";
+
+// Sections
+// @import "sections/banner";
+// @import "sections/discover";
+// @import "sections/features";
+// @import "sections/how";
+// @import "sections/contact";
+// @import "sections/pricing";
+// @import "sections/newsletter";
+
+// Pages
+@import "pages/about";
+@import "pages/blog";
+@import "pages/challenges";
+@import "pages/contact";
+@import "pages/events";
+@import "pages/ressources";
+@import "pages/thankyou";
+
+
+// body {
+//   margin: 0;
+//   background-color: $gray-light !important;
+// }
