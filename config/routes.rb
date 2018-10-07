@@ -5,7 +5,6 @@ Rails.application.routes.draw do
   # Pages routes
   get '/about', to: 'pages#about'
   get '/blog', to: 'pages#blog'
-
   get '/challenges', to: 'pages#challenges'
     # Challenges routes
     get '/challenges/15-days-css', to: 'challenges#fifteen_day_css'
