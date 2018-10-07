@@ -1,0 +1,81 @@
+#footer {
+  min-height: 40vh;
+  background-color: $brand-red;
+}
+
+.made-with-love {
+  font-weight: 400;
+  font-size: 12px;
+  color: $brand-black;
+  margin: auto;
+  position: relative;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-family: $base-font;
+}
+
+.made-with-love-2 {
+  font-weight: 400;
+  font-size: 12px;
+  color: $brand-black;
+  margin: auto;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: $base-font;
+}
+
+.emoji {
+  width: 15px;
+}
+
+.footer-bottom {
+  position: relative;
+  min-height: 70%;
+  padding-top: 80px;
+  font-family: $base-font;
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+
+    li {
+      padding-bottom: 12px;
+      color: $brand-black;
+
+      a {
+        font-size: 13px !important;
+      }
+
+      .fa {
+        padding-right: 10px;
+      }
+    }
+  }
+
+  a {
+    color: $brand-black;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+
+    &:focus,
+    &:hover {
+      color: $brand-black;
+      font-weight: 400;
+      text-decoration: none;
+    }
+  }
+}
+
+.footer-list-title {
+  color: $brand-black;
+  font-weight: 600;
+  font-size: 12px !important;
+  letter-spacing: 0.05rem;
+  padding-top: 3px;
+}
+
+.logo-footer {
+  height: 18px;
+}
