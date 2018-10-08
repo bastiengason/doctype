@@ -13,6 +13,12 @@ Rails.application.routes.draw do
 
   get '/contact', to: 'pages#contact'
   get '/events', to: 'pages#events'
+    # Resources routes
+    get '/events/landing-page-part-1', to: 'events#landing_page_1'
+    get '/events/landing-page-part-2', to: 'events#landing_page_2'
+    get '/events/html-css', to: 'events#html_css'
+    get '/events/animation-css', to: 'events#animation_css'
+
   get '/resources', to: 'pages#resources'
     # Resources routes
     get '/resources/html-css', to: 'resources#html_css'
