@@ -35,13 +35,15 @@
 
 .card-event {
   position: relative;
-  height: 300px;
+  height: 320px;
   border-radius: 5px;
   background-color: $brand-white;
   margin-bottom: 50px;
   max-width: 350px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 
   @media screen and (max-width: 450px) {
     margin-left: auto;
@@ -54,41 +56,63 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 50px;
+    height: 55px;
     width: 100%;
     background-color: $brand-red;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    .card-event-date {
+      font-size: 22px;
+      font-weight: 600;
+      letter-spacing: .1em;
+      color: $brand-white;
+      margin-top: 15px;
+      text-align: center;
+    }
+  }
+
+  .header-shadow {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    height: 5px;
+    width: 100%;
+    background-color: $brand-black-2;
+  }
+
+  .card-event-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .card-event-title {
+      font-size: 17px;
+      font-weight: 600;
+      color: $brand-black;
+      margin-top: 70px;
+      text-align: center;
+      padding-left: 2px;
+      padding-right: 2px;
+    }
+
+    .card-event-desc {
+      margin-top: 12px;
+      padding-left: 7px;
+    }
   }
 
   .card-event-cta {
     position: absolute;
-    top: 250px;
+    top: 270px;
     left: 50%; /* position the left edge of the element at the middle of the parent */
     transform: translate(-50%);
   }
 }
 
-.card-event-date {
-  font-size: 22px;
-  font-weight: 600;
-  letter-spacing: .1em;
-  color: $brand-white;
-  margin-top: 13px;
-  text-align: center;
-}
 
-.card-event-title {
-  font-size: 18px;
-  font-weight: 600;
-  color: $brand-black;
-  margin-top: 30px;
-  text-align: center;
-  padding-left: 10px;
-  padding-right: 10px;
-}
 
-.card-event-desc {
 
-}
 
 
 
