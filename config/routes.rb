@@ -14,6 +14,15 @@ Rails.application.routes.draw do
   get '/contact', to: 'pages#contact'
   get '/events', to: 'pages#events'
   get '/resources', to: 'pages#resources'
+    # Resources routes
+    get '/resources/html-css', to: 'resources#html_css'
+    get '/resources/advanced-css', to: 'resources#advanced_css'
+    get '/resources/javascript', to: 'resources#javascript'
+    get '/resources/git-github', to: 'resources#git_github'
+    get '/resources/heroku', to: 'resources#heroku'
+    get '/resources/ruby-on-rails', to: 'resources#ruby_on_rails'
+    get '/resources/ajax-apis', to: 'resources#ajax_apis'
+
   get '/thankyou', to: 'pages#thankyou'
 
 end
