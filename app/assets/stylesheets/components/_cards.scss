@@ -1,3 +1,5 @@
+//////////////////////////////////////////////////////////////// Card Challenges
+
 .card-challenges {
   position: relative;
   height: 300px;
@@ -28,3 +30,68 @@
     bottom: 10px;
   }
 }
+
+//////////////////////////////////////////////////////////////////// Card Events
+
+.card-event {
+  position: relative;
+  height: 300px;
+  border-radius: 5px;
+  background-color: white;
+
+  @media screen and (max-width: 450px) {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 80%;
+  }
+
+  .card-event-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background-color: $brand-red;
+  }
+
+  .card-event-cta {
+
+  }
+}
+
+.card-event-date {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: .1em;
+  color: white;
+  margin-top: 13px;
+  text-align: center;
+}
+
+.card-event-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: $brand-black;
+  margin-top: 30px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.card-event-desc {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
