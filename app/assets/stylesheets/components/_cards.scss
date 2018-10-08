@@ -4,6 +4,11 @@
   // background-color: white;
   border-radius: 5px;
 
+  @media screen and (max-width: 450px) {
+    margin-left: 0px !important;
+    margin-bottom: 50px;
+  }
+
   .challenges-title {
     position: absolute;
     color: $brand-red;

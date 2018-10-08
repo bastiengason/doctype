@@ -8,7 +8,7 @@ class PagesController < ApplicationController
   def blog
   end
 
-  def ressources
+  def resources
   end
 
   def about

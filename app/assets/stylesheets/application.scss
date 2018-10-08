@@ -30,7 +30,7 @@
 @import "pages/contact";
 @import "pages/events";
 @import "pages/pages";
-@import "pages/ressources";
+@import "pages/resources";
 @import "pages/thankyou";
 
 
@@ -39,6 +39,10 @@ body {
   background-color: rgba(34, 34, 34, 1.00);
   font-family: $base-font;
 }
+
+// ::selection {
+//   background: #EF5C66 !important;
+// }
 
 .logo {
   height: 25px;

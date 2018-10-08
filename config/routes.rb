@@ -13,7 +13,7 @@ Rails.application.routes.draw do
 
   get '/contact', to: 'pages#contact'
   get '/events', to: 'pages#events'
-  get '/ressources', to: 'pages#ressources'
+  get '/resources', to: 'pages#resources'
   get '/thankyou', to: 'pages#thankyou'
 
 end
