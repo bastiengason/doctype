@@ -19,6 +19,7 @@ Rails.application.routes.draw do
     get '/events/html-css', to: 'events#html_css'
     get '/events/animation-css', to: 'events#animation_css'
 
+  get '/faq', to: "pages#faq"
   get '/resources', to: 'pages#resources'
     # Resources routes
     get '/resources/html-css', to: 'resources#html_css'
