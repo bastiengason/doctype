@@ -33,3 +33,22 @@
     }
   }
 }
+
+.banner-pages {
+  height: 35vh;
+  padding-top: 3vh;
+  background-color: $brand-red;
+  color: $brand-black;
+  /* Copy paste this to
+  center your element */
+  display: flex;
+  /* This center vertically */
+  justify-content: center;
+  /* This center horizontally */
+  align-items: center;
+
+  h1 {
+    font-weight: 500;
+    font-size: 36px;
+  }
+}
