@@ -51,8 +51,9 @@
     margin-bottom: 50px;
     width: 80%;
   }
+}
 
-  .card-event-header {
+.card-event-header {
     position: absolute;
     top: 0;
     left: 0;
@@ -108,12 +109,12 @@
     left: 50%; /* position the left edge of the element at the middle of the parent */
     transform: translate(-50%);
   }
-}
 
 
 /////////////////////////////////////////////////////////////// Card Event Large
 
 .card-event-large {
+  position: relative;
   width: 100%;
   height: 320px;
   border-radius: 5px;
